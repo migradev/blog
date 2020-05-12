@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "en-us"
-title = "Anubis"
+title = "Migradev"
 theme = "anubis"
 paginate = 3
 
@@ -8,34 +8,34 @@ paginate = 3
 disqusShortname = ""
 googleAnalytics = ""
 
-[author]
-  name = "Dmitry Kolosov"
+# [author]
+#   name = "Dmitry Kolosov"
 
 [params]
-   author = "Dmitry Kolosov"
+  #  author = "Dmitry Kolosov"
    description = "Anubis is a simple minimalist theme for Hugo blog engine."
 
-[menu]
+# [menu]
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
+#   [[menu.main]]
+#     identifier = "about"
+#     name = "About"
+#     url = "/about/"
+#     weight = 1
 
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
+#   [[menu.main]]
+#     identifier = "tags"
+#     name = "Tags"
+#     url = "/tags/"
+#     weight = 2
 
-  [[menu.main]]
-    name = "Archive"
-    identifier = "archive"
-    url = "/posts/"
-    weight = 3
+#   [[menu.main]]
+#     name = "Archive"
+#     identifier = "archive"
+#     url = "/posts/"
+#     weight = 3
 
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+# [taxonomies]
+# category = "categories"
+# tag = "tags"
+# series = "series"
